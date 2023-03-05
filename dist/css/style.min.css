@@ -1,12 +1,12 @@
 @font-face {
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-display: swap;
   src: url("../fonts/helvetica-bold.woff2") format("woff2"), url("../fonts/Helvetica-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-display: swap;
   src: url("../fonts/helvetica.woff2") format("woff2"), url("../fonts/Helvetica.woff") format("woff");
   font-weight: 400;
@@ -178,6 +178,14 @@ select {
   vertical-align: middle;
 }
 
+.menu {
+  display: flex;
+  gap: 0 20px;
+}
+.menu__link {
+  text-transform: uppercase;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -199,4 +207,48 @@ li {
 
 img {
   max-width: 100%;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #5c5c5e;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1px solid #cacad6;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.basket {
+  position: relative;
+}
+.basket--on span {
+  font-size: 11px;
+  width: 15px;
+  height: 15px;
+  background-color: #000;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  line-height: 0;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: -2px;
 }
