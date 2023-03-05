@@ -1,14 +1,14 @@
 @font-face {
-  font-family: SourceCodePro;
+  font-family: Helvetica;
   font-display: swap;
-  src: url("../fonts/SourceCodePro-Bold.woff2") format("woff2"), url("../fonts/SourceCodePro-Bold.woff") format("woff");
+  src: url("../fonts/helvetica-bold.woff2") format("woff2"), url("../fonts/Helvetica-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: SourceCodePro;
+  font-family: Helvetica;
   font-display: swap;
-  src: url("../fonts/SourceCodePro-Regular.woff2") format("woff2"), url("../fonts/SourceCodePro-Regular.woff") format("woff");
+  src: url("../fonts/helvetica.woff2") format("woff2"), url("../fonts/Helvetica.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
