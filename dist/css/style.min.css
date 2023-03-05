@@ -186,6 +186,56 @@ select {
   text-transform: uppercase;
 }
 
+.top {
+  min-height: calc(100vh - 81px);
+  background-image: url("../img/top-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+.top__title {
+  font-size: 96px;
+  padding-top: 16%;
+  margin-bottom: 10px;
+}
+.top__subtitle {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+.top__text {
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+
+.buy__text {
+  padding-top: 6px;
+  font-size: 13px;
+}
+.buy-btn {
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  display: flex;
+  padding: 0;
+  text-transform: uppercase;
+  padding: 1px;
+}
+.buy-btn__text {
+  color: #f6f4f5;
+  padding: 20px 110px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 112.5%;
+}
+.buy-btn__price {
+  background-color: #e8e6e9;
+  padding: 20px 105px;
+  color: #5c5c5e;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 112.5%;
+}
+
 html {
   box-sizing: border-box;
 }
