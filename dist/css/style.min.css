@@ -288,6 +288,14 @@ h6 {
   margin-bottom: 50px;
 }
 
+.buy {
+  margin-bottom: 110px;
+  text-align: center;
+  position: relative;
+  overflow-x: hidden;
+  max-width: 2000px;
+  margin: 0 auto;
+}
 .buy__text {
   padding-top: 6px;
   font-size: 13px;
@@ -317,7 +325,40 @@ h6 {
   font-size: 16px;
   line-height: 112.5%;
 }
+.buy__img {
+  margin-bottom: 30px;
+}
+.buy .buy-btn {
+  margin: 0 auto;
+}
+.buy .buy-btn__price {
+  background-color: #ffffff;
+}
+.buy__bg {
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  opacity: 0.1;
+  font-size: 400px;
+  line-height: 400px;
+  font-weight: 700;
+  position: absolute;
+  z-index: -1;
+  animation: line-text 6s linear 1s infinite;
+}
 
+@keyframes line-text {
+  from {
+    transform: translateX(115%);
+    transform-origin: left center;
+  }
+  to {
+    transform: translateX(-115%);
+    transform-origin: right center;
+  }
+}
 .feature {
   padding: 100px 0;
 }
