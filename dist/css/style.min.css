@@ -406,6 +406,72 @@ h6 {
   font-size: 13px;
 }
 
+.games {
+  margin-bottom: 100px;
+}
+.games__title {
+  margin-bottom: 50px;
+}
+.games__inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.games__desc {
+  padding-right: 10px;
+}
+.games__desc-title {
+  font-size: 36px;
+  line-height: 114%;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+.games__desc-text {
+  margin-bottom: 30px;
+}
+.games__link {
+  display: inline-block;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 700;
+  width: 225px;
+  text-transform: uppercase;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #bc10d8;
+}
+.games__item {
+  border: 1px solid #bc10d8;
+  padding: 10px 20px 18px;
+  display: flex;
+  flex-direction: column;
+}
+.games__item-img {
+  margin-bottom: 10px;
+}
+.games__item-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.games__item-text {
+  margin-bottom: 30px;
+}
+.games__item-link {
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-top: auto;
+}
+
 html {
   box-sizing: border-box;
 }
