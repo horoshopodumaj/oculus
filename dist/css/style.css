@@ -608,6 +608,57 @@ h6 {
   text-align: center;
 }
 
+.contacts {
+  margin-bottom: 100px;
+}
+.contacts__title {
+  font-size: 24px;
+  line-height: 137.5%;
+  color: #070707;
+  margin-bottom: 10px;
+}
+.contacts__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.contacts__form {
+  flex-basis: 600px;
+}
+.contacts__text {
+  font-size: 13px;
+}
+
+.form {
+  margin-bottom: 10px;
+  position: relative;
+}
+.form__input {
+  width: 100%;
+  border-bottom: 1px solid #cacad6;
+  padding: 22px 70px 22px 0;
+}
+.form__input::placeholder {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #cacad6;
+}
+.form__btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #cacad6;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #5c5c5e;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+}
+
 html {
   box-sizing: border-box;
 }
