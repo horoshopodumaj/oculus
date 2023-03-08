@@ -273,15 +273,52 @@ h6 {
   background-size: cover;
   background-position: bottom center;
 }
+@media (max-width: 768px) {
+  .top {
+    background-position: -220px center;
+  }
+}
+@media (max-width: 568px) {
+  .top {
+    text-align: center;
+    background-position: -250px center;
+  }
+}
+@media (max-width: 420px) {
+  .top {
+    text-align: center;
+    background-position: -320px center;
+  }
+}
 .top__title {
   font-size: 96px;
   padding-top: 16%;
   margin-bottom: 10px;
   font-weight: 400;
 }
+@media (max-width: 768px) {
+  .top__title {
+    font-size: 66px;
+  }
+}
+@media (max-width: 420px) {
+  .top__title {
+    font-size: 48px;
+  }
+}
 .top__subtitle {
   font-size: 36px;
   margin-bottom: 5px;
+}
+@media (max-width: 768px) {
+  .top__subtitle {
+    font-size: 24px;
+  }
+}
+@media (max-width: 420px) {
+  .top__subtitle {
+    font-size: 20px;
+  }
 }
 .top__text {
   font-size: 13px;
@@ -308,6 +345,12 @@ h6 {
   padding: 0;
   text-transform: uppercase;
   padding: 1px;
+}
+@media (max-width: 568px) {
+  .buy-btn {
+    flex-direction: column;
+    margin: 0 auto;
+  }
 }
 .buy-btn__text {
   color: #f6f4f5;
@@ -365,6 +408,11 @@ h6 {
 .feature__titles {
   display: flex;
 }
+@media (max-width: 568px) {
+  .feature__titles {
+    display: block;
+  }
+}
 .feature__title {
   flex-basis: 300px;
   padding-right: 20px;
@@ -379,19 +427,45 @@ h6 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media (max-width: 420px) {
+  .feature__text {
+    font-size: 32px;
+  }
+}
 
 .tabs {
   display: grid;
   grid-template-columns: 300px auto;
+}
+@media (max-width: 992px) {
+  .tabs {
+    display: block;
+  }
 }
 .tabs__btn {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+@media (max-width: 992px) {
+  .tabs__btn {
+    display: block;
+    column-count: 2;
+  }
+}
+@media (max-width: 420px) {
+  .tabs__btn {
+    column-count: 1;
+  }
+}
 .tabs__btn-item {
   font-weight: 700;
   margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+  .tabs__btn-item {
+    display: block;
+  }
 }
 .tabs__btn-item--active {
   color: #070707;
@@ -409,6 +483,11 @@ h6 {
   position: absolute;
   transition: opacity 0.3s ease-in-out;
 }
+@media (max-width: 568px) {
+  .tabs__content-item {
+    display: block;
+  }
+}
 .tabs__content-item--active {
   opacity: 1;
 }
@@ -423,6 +502,7 @@ h6 {
 .tabs__content-img {
   grid-row: 1/-1;
   align-self: stretch;
+  object-fit: cover;
 }
 
 .video {
@@ -438,6 +518,13 @@ h6 {
   justify-content: end;
   align-items: flex-start;
   padding: 9px 10px;
+}
+@media (max-width: 568px) {
+  .video {
+    margin-top: 20px;
+    width: auto;
+    height: 250px;
+  }
 }
 .video__btn {
   margin-left: 22px;
