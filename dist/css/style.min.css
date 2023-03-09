@@ -642,6 +642,11 @@ h6 {
   border: 1px solid;
   border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
 }
+.games__link:hover {
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  color: white;
+  -webkit-text-fill-color: white;
+}
 .games__item {
   border: 1px solid;
   border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
@@ -797,6 +802,11 @@ h6 {
   text-fill-color: transparent;
   width: 100%;
   text-align: center;
+}
+.accessories__item-btn:hover {
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  color: white;
+  -webkit-text-fill-color: white;
 }
 
 .contacts {
