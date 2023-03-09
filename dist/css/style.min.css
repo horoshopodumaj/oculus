@@ -534,10 +534,17 @@ h6 {
 @media (max-width: 568px) {
   .tabs__content-item {
     display: block;
+    height: 0;
+    position: relative;
   }
 }
 .tabs__content-item--active {
   opacity: 1;
+}
+@media (max-width: 568px) {
+  .tabs__content-item--active {
+    height: auto;
+  }
 }
 .tabs__content-box h3 {
   font-size: 24px;
@@ -858,6 +865,13 @@ h6 {
   justify-self: end;
   gap: 20px;
 }
+@media (max-width: 568px) {
+  .social {
+    order: -1;
+    margin-bottom: 20px;
+    gap: 30px;
+  }
+}
 
 html {
   box-sizing: border-box;
@@ -975,4 +989,19 @@ body {
   border-bottom: 1px solid #cacad6;
   margin-bottom: 44px;
   padding: 30px 0;
+}
+@media (max-width: 1140px) {
+  .footer .menu {
+    display: none;
+  }
+  .footer .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1140px) and (max-width: 568px) {
+  .footer .nav {
+    flex-direction: column;
+    height: auto;
+  }
 }
